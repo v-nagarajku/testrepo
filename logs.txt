@@ -1,0 +1,45 @@
+linux agent :?
+Bunle size audtior
+publish wac * : apna progress
+scaling data wala
+The Lage build profile may help in future investigations, we should still publish them
+build optimization tasks done in last few weeks
+
+
+https://msit.microsoftstream.com/video/31b9784c-7bdd-4f6a-94d4-a865d1dbe83f?referrer=https:%2F%2Fmicrosoft.sharepoint.com%2F##[debug]Evaluating condition for step: 'Publish wac-* apps'
+##[debug]Evaluating: SucceededNode()
+##[debug]Evaluating SucceededNode:
+##[debug]=> True
+##[debug]Result: True
+Starting: Publish wac-* apps
+==============================================================================
+Task         : Azure file copy
+Description  : Copy files to Azure Blob Storage or virtual machines
+Version      : 4.198.0
+Author       : Microsoft Corporation
+Help         : https://docs.microsoft.com/azure/devops/pipelines/tasks/deploy/azure-file-copy
+==============================================================================
+##[debug]Invoking Method: System.Threading.Tasks.Task <RunAsync>b__9(). Attempt count: 0
+##[debug]VstsTaskSdk 0.10.0 commit 787a46ec0a2df5b4d12c2e801bd3f319975c054c
+##[debug]Entering D:\a\_work\_tasks\AzureFileCopy_eb72cb01-a7e5-427b-a8a1-1b31ccac8a43\4.198.0\AzureFileCopy.ps1.
+##[debug]INPUT_SOURCEPATH: 'D:\a\_work\1\a\devcdn-deployment\wac\*'
+##[debug]INPUT_DESTINATION: 'AzureBlob'
+##[debug]INPUT_CONNECTEDSERVICENAMEARM: '4bf233f3-2d99-4fdf-8f6d-c74925570d0f'
+##[debug]INPUT_STORAGEACCOUNTRM: 'wordwebclientbuilds'
+##[debug]INPUT_CONTAINERNAME: 'ooui'
+##[debug]INPUT_BLOBPREFIX: '4ba7ea278e472057a52fc43682e120a387f50813'
+##[debug]INPUT_ENVIRONMENTNAMERM (empty)
+##[debug]INPUT_RESOURCEFILTERINGMETHOD: 'machineNames'
+##[debug]INPUT_MACHINENAMES (empty)
+##[debug]INPUT_VMSADMINUSERNAME (empty)
+##[debug]INPUT_VMSADMINPASSWORD (empty)
+##[debug]INPUT_TARGETPATH (empty)
+##[debug]INPUT_ADDITIONALARGUMENTSFORBLOBCOPY (empty)
+##[debug]INPUT_ADDITIONALARGUMENTSFORVMCOPY (empty)
+##[debug]INPUT_CLEANTARGETBEFORECOPY: 'false'
+##[debug] Converted to bool: False
+##[debug]INPUT_COPYFILESINPARALLEL: 'true'
+##[debug] Converted to bool: True
+##[debug]INPUT_SKIPCACHECK: 'true'
+##[debug] Converted to bool: True
+##[debug]INPUT_ENABLECOPYPREREQUISITES: 'false'
